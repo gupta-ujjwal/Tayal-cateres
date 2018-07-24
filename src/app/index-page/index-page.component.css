@@ -10,5 +10,70 @@
 }
 
 .nav-item:hover {
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 1px rgba(0,0,0,0.2);
+}
+
+#MainImageContainer {
+    margin-top: 9vh;
+}
+
+.imageBox-MainImage {
+    width: 100%;
+    height: 70vh;
+}
+
+.imageBox-MainImage img {
+    width: 100%;
+    height: 100%;
+}
+
+.titleMainImageContainer {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 15vh;
+    left: 6vh;
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.titleMainImageContainer h3 {
+    color: #fff;
+    font-size: 54px;
+    font-family: railway;
+    margin: 5px 0px;
+}
+
+.titleMainImageContainer span {
+    color: #fff8dc;
+    font-size: 18px;
+    padding-left: 2px;
+}
+
+@media screen and (max-width: 720px) {
+    
+    .titleMainImageContainer {
+        width: 250px;
+        height: auto;
+        position: absolute;
+        top: 12vh;
+        left: 3vh;
+        background: rgba(0,0,0,0.4);
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+    .titleMainImageContainer span {
+        font-size: 14px;
+        padding-left: 0px;
+    }
+    .titleMainImageContainer h3 {
+        color: #fff;
+        font-size: 28px;
+        font-family: railway;
+        margin: 5px 0px;
+    }
+    .imageBox-MainImage {
+        height: 50vh;
+    }
 }
