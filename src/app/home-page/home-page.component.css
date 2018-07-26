@@ -52,7 +52,7 @@
     padding: 10px 0px;
 }
 
-.service ul li {
+.servicesCards ul li {
     padding: 10px;
 }
 .service {
@@ -95,5 +95,12 @@
     }
     .imageBox-MainImage {
         height: 50vh;
+    }
+    .sec-heading {
+        font-size: 30px;
+    }
+    .aboutUs {
+        padding: 0px;
+        font-size: 14px;
     }
 }
